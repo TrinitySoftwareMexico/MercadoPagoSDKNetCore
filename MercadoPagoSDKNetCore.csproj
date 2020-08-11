@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Rodrigo del Angel</Authors>
+    <Company>Trinity Software México</Company>
+    <Description>Implementación de librerias para uso con Net Core 2.x</Description>
+    <Copyright>Copyright (c) 2020 TrinitySoftwareMexico</Copyright>
+    <PackageIcon>MercadoPagoLogo.jpg</PackageIcon>
+    <RepositoryUrl>https://github.com/TrinitySoftwareMexico/MercadoPagoSDKNetCore</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Mercado Pago</PackageTags>
+    <PackageProjectUrl>www.trinitysoftware.mx</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="ObjectDumper.NET" Version="2.5.20155.1" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\MercadoPagoLogo.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
